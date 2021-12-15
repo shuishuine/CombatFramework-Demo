@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23f08d2ae4cba14087c1ed36193d82b, type: 3}
+  m_Name: 1001
+  m_EditorClassIdentifier: 
+  mBehaviorSource:
+    behaviorName: "\u5929\u97F3\u6CE2\u56DE\u97F3\u8E22"
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(349.331543,30.2961121)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Parallel","NodeData":{"Offset":"(-4.668457,117.296112)"},"ID":1,"Name":"Parallel","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-323.447449,190.435608)"},"ID":2,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"ChangeNavMeshAgent","NodeData":{"Offset":"(-157.168457,110.296112)"},"ID":3,"Name":"Change
+        Nav Mesh Agent","Instant":true,"BooleanCloseNavMeshAgent":true,"BooleanCloseMouseInput":false,"BooleanCloseSkillInput":true},{"Type":"BehaviorDesigner.Runtime.Tasks.Parallel","NodeData":{"Offset":"(85.12194,116.341469)"},"ID":4,"Name":"Parallel","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"ActionPlayAni","NodeData":{"Offset":"(-76.82928,114.390244)"},"ID":5,"Name":"Action
+        Play Ani","Instant":true,"AnimationClipclip":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(87.07318,110.487793)"},"ID":6,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-82.92682,130.4878)"},"ID":7,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.5},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"SendEvent","NodeData":{"Offset":"(100,133.414658)"},"ID":8,"Name":"Send
+        Event","Instant":true,"SharedGameObjecttarget":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null},"SharedStringeventName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"spell3"}}]}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(297.255951,186.5116)"},"ID":9,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-81.9220352,120.890358)"},"ID":10,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.HasReceivedEvent","NodeData":{"Offset":"(-127.550011,126.445892)"},"ID":11,"Name":"Has
+        Received Event","Instant":true,"SharedStringeventName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"spell3"}},{"Type":"Create_Bullet","NodeData":{"Offset":"(0,130)"},"ID":12,"Name":"Create  
+        Bullet","Instant":true,"SharedFloatAngle":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"StringbulletId":"1001","Spacespace":"World","Vector3offestCenter":"(0,0,0)"},{"Type":"ChangeNavMeshAgent","NodeData":{"Offset":"(150,130)"},"ID":13,"Name":"Change
+        Nav Mesh Agent","Instant":true,"BooleanCloseNavMeshAgent":false,"BooleanCloseMouseInput":false,"BooleanCloseSkillInput":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(300.588257,133.721008)"},"ID":14,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-166.01799,136.666656)"},"ID":15,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.HasReceivedEvent","NodeData":{"Offset":"(-50.2416534,101.568573)"},"ID":16,"Name":"Has
+        Received Event","Instant":true,"SharedStringeventName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"true"}},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(75.7845154,100.636246)"},"ID":17,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-267.0441,157.708313)"},"ID":18,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Get_qAttack","NodeData":{"Offset":"(-62.8571739,101.517891)"},"ID":19,"Name":"Get 
+        q Attack","Instant":true,"SharedTransformtarget":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"q","IsShared":true,"IsDynamic":true}},{"Type":"ChangeSkillUI","NodeData":{"Offset":"(51.42854,101.517891)"},"ID":20,"Name":"Change
+        Skill UI","Instant":true,"Int32nextId":1006}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(4.459446,163.068054)"},"ID":21,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-81.66705,154.999817)"},"ID":22,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityInput.IsKeyDown","NodeData":{"Offset":"(-62.33493,118.905853)"},"ID":23,"Name":"Is
+        Key Down","Instant":true,"KeyCodekey":"Q"},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(93.33356,126.66629)"},"ID":24,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"ChangeNavMeshAgent","NodeData":{"Offset":"(-169.999969,133.333435)"},"ID":25,"Name":"Change
+        Nav Mesh Agent","Instant":true,"BooleanCloseNavMeshAgent":true,"BooleanCloseMouseInput":false,"BooleanCloseSkillInput":true},{"Type":"BehaviorDesigner.Runtime.Tasks.Movement.MoveTowards","NodeData":{"Offset":"(-36.666626,126.666748)"},"ID":26,"Name":"Move
+        Towards","Instant":true,"SharedFloatspeed":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":10},"SharedFloatarriveDistance":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoollookAtTarget":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedFloatmaxLookAtRotationDelta":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"SharedTransformtargetTransform":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"q","IsShared":true,"IsDynamic":true},"SharedVector3targetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"Vector3mValue":"(0,0,0)"}},{"Type":"Attack_Single","NodeData":{"Offset":"(60,126.111115)"},"ID":27,"Name":"Attack  
+        Single","Instant":true,"SharedTransformtarget":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"q","IsShared":true,"IsDynamic":true},"SharedFloatDamage":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":10}},{"Type":"ChangeNavMeshAgent","NodeData":{"Offset":"(190,126.111115)"},"ID":28,"Name":"Change
+        Nav Mesh Agent","Instant":true,"BooleanCloseNavMeshAgent":false,"BooleanCloseMouseInput":false,"BooleanCloseSkillInput":false}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(86.111084,148.888672)"},"ID":29,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":3},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(241.428848,162.619019)"},"ID":30,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"AddEffect","NodeData":{"Offset":"(-48.5714645,102.142883)"},"ID":31,"Name":"Add
+        Effect","Instant":true,"BooleanIsRemove":true,"StringeffectName":"effect_1001","SharedTransformtarget":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"q","IsShared":true,"IsDynamic":true}},{"Type":"ChangeSkillUI","NodeData":{"Offset":"(67.14284,102.142883)"},"ID":32,"Name":"Change
+        Skill UI","Instant":true,"Int32nextId":1001}]}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(121.960579,146.666656)"},"ID":33,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.HasReceivedEvent","NodeData":{"Offset":"(82.94095,88.62747)"},"ID":34,"Name":"Has
+        Received Event","Instant":true,"SharedStringeventName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"false"}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Idle","NodeData":{"Offset":"(383.27124,149.487167)"},"ID":35,"Name":"Idle","Instant":true}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Idle","NodeData":{"Offset":"(84.74466,118.668091)"},"ID":36,"Name":"Idle","Instant":true}]}]},"Variables":[{"Type":"Battle.SharedSoliderFaces","Name":"CheckObjs","IsShared":true,"List`1mValue":[]},{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"q","IsShared":true,"IsDynamic":true}]}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects:
+        - {fileID: 7400000, guid: 72dbb27a9db031b48903028ffef0fc36, type: 3}
+        byteData: 
+        byteDataArray: 
+      Version: 1.7.1

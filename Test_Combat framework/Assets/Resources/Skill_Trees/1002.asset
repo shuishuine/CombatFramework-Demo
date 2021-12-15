@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23f08d2ae4cba14087c1ed36193d82b, type: 3}
+  m_Name: 1002
+  m_EditorClassIdentifier: 
+  mBehaviorSource:
+    behaviorName: Skill_1002
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(349.331543,30.2961121)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Parallel","NodeData":{"Offset":"(-1.21193314,104.643906)"},"ID":1,"Name":"Parallel","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-221.739136,138.260864)"},"ID":2,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"ChangeNavMeshAgent","NodeData":{"Offset":"(-160,109.999969)"},"ID":3,"Name":"Change
+        Nav Mesh Agent","Instant":true,"BooleanCloseNavMeshAgent":true,"BooleanCloseMouseInput":false,"BooleanCloseSkillInput":true},{"Type":"BehaviorDesigner.Runtime.Tasks.Parallel","NodeData":{"Offset":"(43.142,118.96685)"},"ID":4,"Name":"Parallel","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"ActionPlayAni","NodeData":{"Offset":"(-87.61904,110)"},"ID":5,"Name":"Action
+        Play Ani","Instant":true,"AnimationClipclip":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(85.28464,111.109642)"},"ID":6,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-78.5713959,127.619049)"},"ID":7,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.5},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"SendEvent","NodeData":{"Offset":"(82.38095,131.904755)"},"ID":8,"Name":"Send
+        Event","Instant":true,"SharedGameObjecttarget":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null},"SharedStringeventName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"spell2"}}]}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(420.869629,133.478271)"},"ID":9,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-81.9220352,120.890358)"},"ID":10,"Name":"Sequence","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.HasReceivedEvent","NodeData":{"Offset":"(-141.994446,126.445892)"},"ID":11,"Name":"Has
+        Received Event","Instant":true,"SharedStringeventName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"spell2"}},{"Type":"Create_Bullet","NodeData":{"Offset":"(0,130)"},"ID":12,"Name":"Create  
+        Bullet","Instant":true,"SharedFloatAngle":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"StringbulletId":"1002","Spacespace":"World","Vector3offestCenter":"(0,1,0)"},{"Type":"ChangeNavMeshAgent","NodeData":{"Offset":"(160,130)"},"ID":13,"Name":"Change
+        Nav Mesh Agent","Instant":true,"BooleanCloseNavMeshAgent":false,"BooleanCloseMouseInput":false,"BooleanCloseSkillInput":false}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Idle","NodeData":{"Offset":"(84.74466,118.668091)"},"ID":14,"Name":"Idle","Instant":true}]}]},"Variables":[{"Type":"Battle.SharedSoliderFaces","Name":"CheckObjs","IsShared":true,"List`1mValue":[]}]}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects:
+        - {fileID: 7400000, guid: 7c23f8a8e801a3a4e9cae21e6984fb0d, type: 3}
+        byteData: 
+        byteDataArray: 
+      Version: 1.7.1
